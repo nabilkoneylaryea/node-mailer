@@ -47,8 +47,8 @@ app.post('/send', (req, res) => {
             ciphers: 'SSLv3'
         },
         auth: {
-            user: 'nkoney14@outlook.com', // generated ethereal user
-            pass: 'filed37402504', // generated ethereal password
+            user: '**************', // generated ethereal user
+            pass: '************', // generated ethereal password
         },
         tls:{
             rejectUnauthorized: false
@@ -57,8 +57,8 @@ app.post('/send', (req, res) => {
 
     // send mail with defined transport object
     let mailOptions = {
-        from: '"Nodemailer Contact 👻" <nkoney14@outlook.com>', // sender address
-        to: "nkoney14@gmail.com", // list of receivers
+        from: '"Nodemailer Contact 👻" <***************>', // sender address
+        to: "n************", // list of receivers
         subject: "Node Contact Request", // Subject line
         text: "Hello world?", // plain text body
         html: output, // html body
