@@ -58,7 +58,7 @@ app.post('/send', (req, res) => {
     // send mail with defined transport object
     let mailOptions = {
         from: '"Nodemailer Contact 👻" <***************>', // sender address
-        to: "n************", // list of receivers
+        to: "************", // list of receivers
         subject: "Node Contact Request", // Subject line
         text: "Hello world?", // plain text body
         html: output, // html body
